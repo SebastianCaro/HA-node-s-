@@ -1,0 +1,19 @@
+var express = require('express')
+var router = express.Router()
+
+/*Get home page*/
+
+router.get('/', function(req, res, next){
+ const context = {
+   title: 'Profile'
+   name: 'Sebastian Caro'
+   age: 14
+
+
+
+ }
+
+res.render('profile',context)
+})
+
+module.exports = router;

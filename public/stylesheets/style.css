@@ -1,0 +1,14 @@
+h1 {
+  padding: 20px;
+  font-style:italic;
+  color :blue;
+  background-color: #bbdefb;
+  font-size:30px
+}
+
+a {
+  color: #00B7FF;
+}
+nav{
+background-color: #64b5f6 !important;
+ }
